@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/user/:path*",
-      "destination": "https://sq-backend.onrender.com/user/:path*"
+      "destination": "https://tomas-back.onrender.com/user/:path*"
     },
     {
       "source": "/books/:path*",
-      "destination": "https://sq-backend.onrender.com/books/:path*"
+      "destination": "https://tomas-back.onrender.com/books/:path*"
     },
     {
       "source": "/(.*)",

@@ -11,12 +11,7 @@ const Login = () => {
   const { enqueueSnackbar } = useSnackbar();
 
 
-  useEffect(() => {
-    const token = localStorage.getItem("token");
-    if (token) {
-      navigate("/home");
-    }
-  }, [navigate]);
+
 
   const handleLogin = (e) => {
     e.preventDefault();
